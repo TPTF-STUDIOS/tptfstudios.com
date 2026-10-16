@@ -1,5 +1,23 @@
 {
+  "name": "tptfstudios.com",
+  "version": "1.0.0",
+  "description": "TPTF Studios official website",
+  "homepage": "https://github.com/TPTF-STUDIOS/tptfstudios.com#readme",
+  "bugs": {
+    "url": "https://github.com/TPTF-STUDIOS/tptfstudios.com/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TPTF-STUDIOS/tptfstudios.com.git"
+  },
+  "license": "Apache-2.0",
+  "author": "TPTF Studios",
+  "type": "module",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "vite"
+  },
   "dependencies": {
-    "coolshapes-react": "^1.0.1"
+    "vite": "^8.3.4"
   }
 }

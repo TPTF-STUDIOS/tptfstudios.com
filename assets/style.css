@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&display=swap');
+
+header {
+    text-align: center;
+}
+
+p, li, a {
+    transform: scale(1);
+    transform-origin: left;
+    transition: transform 0.2s ease, color 0.5s ease;
+}
+
+header {
+    transform: scale(1);
+    transform-origin: center;
+    transition: transform 0.2s ease;
+}
+
+p:hover, li:hover, header:hover {
+    transform: scale(1.06);
+}
+
+a:hover {
+    color: rgb(179, 0, 164);
+}
+
+
+body {
+    background-color: rgb(202, 78, 255);
+    font-family: 'Edu QLD Hand', cursive;
+    font-size: 25px;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: rgb(45, 8, 61);
+        color: white;
+    }
+    a {
+        color: cyan;
+    }
+    a:hover {
+        color: rgb(255, 100, 242);
+    }
+}

@@ -1,50 +1,36 @@
-# =========================================================================
-# TPTF STUDIOS - OFFICIAL ROBOTS.TXT
-# Copyright © 2026 TPTF Studios. All Rights Reserved.
-# Search indexing ALLOWED for humans | AI scraping strictly BANNED.
-# =========================================================================
-
-# -------------------------------------------------------------------------
-# SECTION 1: BAN ALL KNOWN AI TRAINING AND SCRAPING BOTS
-# -------------------------------------------------------------------------
-User-agent: GPTBot
+User-Agent: GPTBot
 Disallow: /
-
-User-agent: ChatGPT-User
+User-Agent: OAI-SearchBot
 Disallow: /
-
-User-agent: ClaudeBot
+User-Agent: ChatGPT-User
 Disallow: /
-
-User-agent: Claude-Web
+User-Agent: ClaudeBot
 Disallow: /
-
-User-agent: Google-Extended
+User-Agent: Claude-User
 Disallow: /
-
-User-agent: FacebookBot
+User-Agent: anthropic-ai
 Disallow: /
-
-User-agent: Applebot-Extended
+User-Agent: Bingbot
 Disallow: /
-
-User-agent: PerplexityBot
+User-Agent: Google-Extended
 Disallow: /
-
-User-agent: CCBot
+User-Agent: Gemini-Deep-Research
 Disallow: /
-
-User-agent: Anthropic-AI
+User-Agent: Llama
 Disallow: /
-
-User-agent: Cohere-AI
+User-Agent: PerplexityBot
 Disallow: /
-
-User-agent: bingbot
+User-Agent: Amazonbot
 Disallow: /
+User-Agent: DuckAssistBot
+Disallow: /
+User-Agent: CCBot
+Disallow: /
+User-Agent: Bytespider
+Disallow: /
+User-agent: Googlebot
+Allow: *
+User-agent *
+Allow: *
 
-# -------------------------------------------------------------------------
-# SECTION 2: ALLOW SEARCH ENGINES TO INDEX EVERYTHING ELSE
-# -------------------------------------------------------------------------
-User-agent: *
-Allow: /
+Sitemap: https://tptfstudios.com/sitemap.xml
